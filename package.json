@@ -5,7 +5,8 @@
   "main": "test.js",
   "dependencies": {
     "mysql": "^2.15.0",
-    "sequelize": "^4.37.7"
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.0.0"
   },
   "devDependencies": {},
   "scripts": {
