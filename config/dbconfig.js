@@ -1,5 +1,5 @@
 var config = {
-    database: 'dianda_development', // 使用哪个数据库
+    database: 'dianda', // 使用哪个数据库
     username: 'root', // 用户名
     password: 'ok', // 口令
     host: 'localhost', // 主机名

@@ -2,7 +2,9 @@ const Pet = require('../model/petModel');
 
 const findAll = function () {
 
-    Pet.findAll().then(function(result) {
+    Pet.findAll({
+        
+    }).then(function(result) {
         for (const p of result) {
             console.log(p);
         }

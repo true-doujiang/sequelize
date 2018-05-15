@@ -16,7 +16,8 @@ const Pet = sequelize.define('pet', {
     updatedAt: Sequelize.BIGINT,
     version: Sequelize.BIGINT
 }, {
-        timestamps: false
+    tableName: 'pets',
+    timestamps: false
 });
 
 module.exports = Pet;
