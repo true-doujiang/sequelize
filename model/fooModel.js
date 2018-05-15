@@ -77,5 +77,5 @@ const Foo = sequelize.define('foo', {
     // }
 });
 
-   Foo.sync({force: true});
-   
+//    Foo.sync({force: true});
+
