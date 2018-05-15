@@ -61,20 +61,20 @@ const Foo = sequelize.define('foo', {
     // fieldWithUnderscores: { type: Sequelize.STRING, field: 'field_with_underscores' },
 
     // 这可以创建一个外键:
-    // bar_id: {
-    //     type: Sequelize.INTEGER,
+    bar_id: {
+        type: Sequelize.INTEGER,
 
-    //     references: {
-    //         // 这是引用另一个模型
-    //         model: Bar,
+        references: {
+            // 这是引用另一个模型
+            model: Bar,
 
-    //         // 这是引用模型的列名称
-    //         key: 'id',
+            // 这是引用模型的列名称
+            key: 'id',
 
-    //         // 这声明什么时候检查外键约束。 仅限PostgreSQL。
-    //         // deferrable: Sequelize.Deferrable.INITIALLY_IMMEDIATE
-    //     }
-    // }
+            // 这声明什么时候检查外键约束。 仅限PostgreSQL。
+            // deferrable: Sequelize.Deferrable.INITIALLY_IMMEDIATE
+        }
+    }
 });
 
 //    Foo.sync({force: true});
