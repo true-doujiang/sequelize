@@ -96,5 +96,15 @@ const Foo = sequelize.define('foo', {
  */
 
 
+/**
+ * 
+ * branch20180515
+ * 
+ */
 
 
+/**
+ * 
+ * branch20180515
+ * 
+ */
