@@ -79,3 +79,10 @@ const Foo = sequelize.define('foo', {
 
 //    Foo.sync({force: true});
 
+
+
+/**
+ * 
+ * branch20180515
+ * 
+ */
